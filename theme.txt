@@ -1,0 +1,50 @@
+# GRUB2 gfxmenu Linux theme
+# Designed for any resolution
+
+# Global Property
+title-text: ""
+desktop-image: "background.jpg"
+desktop-color: "#242424"
+terminal-font: "Terminus Regular 14"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Boot Menüsü Ayarları
++ boot_menu {
+  left = 25%              # Biraz daha sağa çektik
+  top = 25%               # Biraz daha aşağı indirdik
+  width = 50%             # Menü alanını genişlettik
+  height = 50%
+  item_font = "Unifont Regular 24"  # Yazıları büyüttük (klasöründe bu font varsa)
+  item_color = "#cccccc"
+  selected_item_color = "#ffffff"
+  icon_width = 48         # İkonları belirginleştirdik
+  icon_height = 48
+  item_icon_space = 15    # İkon ve yazı arasını açtık
+  item_height = 54
+  item_padding = 5
+  item_spacing = 10
+  selected_item_pixmap_style = "select_*.png"
+}
+
++ image {
+  top = 0%
+  left = 0%
+  file = "info.png"
+}
+
+# Show a countdown message using the label component
++ label {
+  top = 83%
+  left = 12%
+  width = 34%
+  align = "center"
+  id = "__timeout__"
+  text = "Sistem %d saniye içinde açılacak"
+  color = "#ffffff"
+  font = "Unifont Regular 16"
+}
