@@ -13,21 +13,21 @@ terminal-width: "100%"
 terminal-height: "100%"
 terminal-border: "0"
 
-# Boot Menüsü Ayarları
+# Show the boot menu
 + boot_menu {
-  left = 25%              # Biraz daha sağa çektik
-  top = 25%               # Biraz daha aşağı indirdik
-  width = 50%             # Menü alanını genişlettik
-  height = 50%
-  item_font = "Unifont Regular 24"  # Yazıları büyüttük (klasöründe bu font varsa)
-  item_color = "#cccccc"
+  left = 19%
+  top = 18%
+  width = 28%
+  height = 54%
+  item_font = "Unifont Regular 16"
+  item_color = "#efefef"
   selected_item_color = "#ffffff"
-  icon_width = 48         # İkonları belirginleştirdik
-  icon_height = 48
-  item_icon_space = 15    # İkon ve yazı arasını açtık
-  item_height = 54
-  item_padding = 5
-  item_spacing = 10
+  icon_width = 32
+  icon_height = 32
+  item_icon_space = 6
+  item_height = 48
+  item_padding = 3
+  item_spacing = 6
   selected_item_pixmap_style = "select_*.png"
 }
 
