@@ -61,5 +61,5 @@ echo "[5/5] GRUB yapılandırması yenileniyor ve os-prober zorlanıyor..."
 grub2-mkconfig -o /boot/grub2/grub.cfg
 
 echo "-----------------------------------------------"
-echo "İşlem Tamam! os-prober aktif edildi, Windows eklendi ve Tema aktif."
+echo "İşlem Tamam! Tema Aktif"
 echo "-----------------------------------------------"
